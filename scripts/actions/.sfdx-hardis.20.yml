@@ -1,0 +1,9 @@
+commandsPostDeploy:
+  - id: 93d89dde-acab-4e21-8be7-197443fa8956
+    label: Export/Import Handover Templates
+    type: data
+    command: ""
+    parameters:
+      sfdmuProject: HeliosHandoverTemplates
+    runOnlyOnceByOrg: true
+    context: process-deployment-only
